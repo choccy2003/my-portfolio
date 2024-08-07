@@ -10,7 +10,7 @@ const projectSection = ( ) =>{
         <div className="flex mt-10 relative items-center max-cl:flex-col ">
           <div style={{width:"600px"}} className="relative max-cl:static max-cl:!max-w-lg max-sm:!max-w-sm max-xs:!max-w-xs">
             <a href="https://chocotv123.web.app/">
-              <img  className=" rounded-xl relative right-44 cursor-pointer max-cl:static max-cl:mb-4 max-cl:!w-fit max-cl:max-w-lg max-sm:!max-w-sm max-xs:!max-w-xs" alt="img" src="/pic6.png" />  
+              <img  className=" rounded-xl relative right-44 cursor-pointer max-cl:static max-cl:mb-4 max-cl:!w-fit max-cl:max-w-lg max-sm:!max-w-sm max-xs:!max-w-xs" alt="img" src="/pic6.PNG" />  
             </a>
            
            
@@ -35,7 +35,7 @@ const projectSection = ( ) =>{
         </div>  
         <div style={{width:"600px"}} className="absolute  left-16 max-cl:static max-cl:!max-w-lg max-sm:!max-w-sm max-xs:!max-w-xs">
          <a href="https://website-3830a.web.app/">
-           <img className=" rounded-xl relative cursor-pointer  max-cl:static max-cl:mb-4 max-cl:!w-fit max-cl:max-w-lg max-sm:max-w-sm max-xs:!max-w-xs" alt="img" src='/pic4.png' />  
+           <img className=" rounded-xl relative cursor-pointer  max-cl:static max-cl:mb-4 max-cl:!w-fit max-cl:max-w-lg max-sm:max-w-sm max-xs:!max-w-xs" alt="img" src='/pic4.PNG' />  
          </a>
            
         </div>
@@ -43,7 +43,7 @@ const projectSection = ( ) =>{
         <div className="flex mt-32 relative items-center max-cl:flex-col max-cl:mt-5">
           <div style={{width:"600px"}} className="relative max-cl:static max-cl:!max-w-lg max-sm:!max-w-sm max-xs:!max-w-xs">
             <a href="https://pixel-plus-studios.web.app/">
-             <img  className=" rounded-xl relative right-44 cursor-pointer max-cl:static max-cl:mb-4 max-cl:!w-fit max-cl:max-w-lg max-sm:!max-w-sm max-xs:!max-w-xs" alt="img" src='/pic7.png' />   
+             <img  className=" rounded-xl relative right-44 cursor-pointer max-cl:static max-cl:mb-4 max-cl:!w-fit max-cl:max-w-lg max-sm:!max-w-sm max-xs:!max-w-xs" alt="img" src='/pic7.PNG' />   
             </a>
            
            
