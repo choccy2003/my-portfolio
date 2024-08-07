@@ -1,6 +1,3 @@
-import Image from "next/image"
-import pfp from "../../public/pfp.svg"
-
 
 const aboutSection = ()=>{
     return (<>
@@ -38,8 +35,8 @@ const aboutSection = ()=>{
 
 </ul>
            </div>
-           <div className="w-96 h-fit max-xl:!hidden">
-            <Image src={pfp} alt="pfp"/>
+           <div className="relative w-96 h-fit max-xl:!hidden">
+            <img src="/pfp.svg"/>
             </div></div>
         </div>
     </div>

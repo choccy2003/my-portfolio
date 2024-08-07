@@ -1,8 +1,6 @@
 import { FaGithub,FaLinkedin } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
-import Image from "next/image";
-import pic1 from "../../public/pic1.png"
-import pic2 from '../../public/pic3.png'
+
 
 const Homesection = () =>{
 
@@ -51,8 +49,10 @@ full-stack websites. <span className="max-xs:hidden">I also have experience with
         </div>
         <div >
             <div  style={{width:"500px",position:"relative"}} className=" max-3xl:!w-96 max-2xl:hidden">
-                <Image quality={100} priority={true} className=" rounded-2xl relative right-44" alt="img" src={pic2} />
-                <Image quality={100} priority={true} className="rounded-2xl absolute top-24 right-24" alt="img" src={pic1} />
+           
+                <img className=" rounded-2xl relative right-44" src="/pic3.png"/>
+                <img className="rounded-2xl absolute top-24 right-24" src='/pic1.png'/>
+          
             </div>
     
 
