@@ -31,7 +31,7 @@ const Navbar:React.FC<Props> = (props)=>{
     return (
           
      
-           <div style={{backgroundColor:"#020c1b",fontSize:"20px"}} className="flex gap-10 h-14 px-4 pt-1.5 pb-1 items-center font-medium font-mono cursor-pointer-all sticky top-0 max-lg:!text-base max-lg:!font-base max-lg:!gap-5 max-sm:!text-sm max-sm:!gap-3 max-xs:!gap-2.5 max-xs:!text-xs max-xs:!h-12 z-50 select-none" >
+           <div style={{backgroundColor:"#020c1b",fontSize:"20px"}} className="flex gap-10 h-14 px-4 pt-1.5 pb-1 items-center font-medium font-mono cursor-pointer-all max-lg:!text-base max-lg:!font-base max-lg:!gap-5 max-sm:!text-sm max-sm:!gap-3 max-xs:!gap-2.5 max-xs:!text-xs max-xs:!h-12 z-50 select-none" >
             {/* <div className="w-12 h-12 min-h-12 min-w-12 grid place-items-center">
                     <Image src={Logo} alt="logo" /> 
                 
@@ -47,10 +47,10 @@ const Navbar:React.FC<Props> = (props)=>{
             </div>
             <div className="relative mb-1.5">
             <div className="rounded-md px-2 text-custom-color transition-all duration-500 hover:-translate-x-0.5 hover:-translate-y-0.5 relative z-10 border-custom-color border-2 max-sm:!mr-0 max-xs:!rounded-md " style={{marginRight:"2%",backgroundColor:"#020c1b"}}>
-                Resume
+            <a href="/Harshit.pdf" download="Harshit.pdf">Resume</a> 
             </div>
             <div className="rounded-md px-2 text-custom-color transition-all duration-500 bg-custom-color max-sm:!mr-0 max-xs:!rounded-md absolute top-0 left-0 right-0 bottom-0 " style={{marginRight:"2%"}}>
-                Resume
+              Resume
             </div>
             </div>
             

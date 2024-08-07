@@ -1,9 +1,24 @@
 import { FaGithub,FaLinkedin } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
+import { RefObject } from "react";
 
+interface Props {
+    projectSectionRef: RefObject<HTMLDivElement>;
+}
 
-const Homesection = () =>{
-
+const Homesection:React.FC<Props> = (props) =>{
+    const sectionScrollEvent = (x:RefObject<HTMLDivElement>)=>{
+        if (x.current) {
+          const element = x.current;
+          const offset = 100; // Adjust this value to set your desired offset
+          const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = elementPosition - offset;
+    
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+          });
+        }}
 return(
     <>
     <div className="mb-96 flex font-mono max-lg:mb-32 " style={{marginTop:"12%",marginLeft:"1.1%"}}>
@@ -39,10 +54,12 @@ hands-on experience in designing and implementing
 full-stack websites. <span className="max-xs:hidden">I also have experience with other useful technologies like NEXTjs, TypeScript, Tailwind, etc.</span></div>
             
             <div className="relative">
-            <div style={{fontSize:"17px",backgroundColor:"#020c1b"}} className="px-4 py-2 border-2 border-custom-color max-w-fit rounded-md text-custom-color cursor-pointer transition-all duration-500 font-semibold mt-6 max-lg:px-2 max-lg:!text-sm max-sm:!text-xs max-sm:!mt-4 relative z-10 hover:-translate-x-1 hover:-translate-y-1">
+            <div style={{fontSize:"17px",backgroundColor:"#020c1b"}} className="px-4 py-2 border-2 border-custom-color max-w-fit rounded-md text-custom-color cursor-pointer transition-all duration-500 font-semibold mt-6 max-lg:px-2 max-lg:!text-sm max-sm:!text-xs max-sm:!mt-4 relative z-10 hover:-translate-x-1 hover:-translate-y-1" onClick={()=>{
+                sectionScrollEvent(props.projectSectionRef)
+            }} >
                 Check out my projects!
             </div>
-            <div style={{fontSize:"17px"}} className="px-4 py-2 border-2 border-custom-color max-w-fit rounded-md text-custom-color cursor-pointer transition-all duration-500 font-semibold  mt-6 max-lg:px-2 max-lg:!text-sm max-sm:!text-xs max-sm:!mt-4 absolute top-0 bg-custom-color">
+            <div style={{fontSize:"17px"}} className="px-4 py-2 border-2 border-custom-color max-w-fit rounded-md text-custom-color cursor-pointer transition-all duration-500 font-semibold  mt-6 max-lg:px-2 max-lg:!text-sm max-sm:!text-xs max-sm:!mt-4 absolute top-0 bg-custom-color"  >
                 Check out my projects!
             </div>
             </div>
