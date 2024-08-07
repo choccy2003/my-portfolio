@@ -7,13 +7,13 @@ const aboutSection = ()=>{
            
            <div className="flex gap-5 max-xl:!gap-0 max-lg:block max-lg:w-80 max-xs:w-72">
             <div style={{wordSpacing:"0px",fontWeight:"500",fontSize:"17px",lineHeight:"24px"}} className="font-sans max-w-xl max-lg:!text-sm max-xs:!text-xs">
-           <p className="mt-10 max-lg:mt-5">Hello! I’m Harshit, a passionate web developer specializing in the MERN stack. With proficiency in modern web technologies such as TypeScript, Tailwind, Next.js, and Firebase, I have been crafting dynamic and responsive websites since 2022.</p>
+           <p className="mt-10 max-lg:mt-5">Hello! I am Harshit, a passionate web developer specializing in the MERN stack. With proficiency in modern web technologies such as TypeScript, Tailwind, Next.js, and Firebase, I have been crafting dynamic and responsive websites since 2022.</p>
 <p className="mt-5 max-lg:mt-2.5">My journey in web development began two years ago, and I have since honed my skills through various projects and a web development internship at InternNexus. Additionally, I have completed industrial training in the MERN stack, further solidifying my expertise.</p>
 
 <p className="mt-5 max-lg:mt-2.5">At just 21, I am eager to take on new challenges and am open to freelancing opportunities to further expand my skill set.</p>
 
 <p className="mt-5 max-lg:mt-2.5">
-   Let’s connect and create something amazing together! 
+   Lets connect and create something amazing together! 
 </p>
 <div className="text-xl mt-7 mb-4  ">My Skills:</div>
 <ul className="*:flex *:items-center *:justify-between *:mt-1.5 max-w-96 cursor-pointer">
