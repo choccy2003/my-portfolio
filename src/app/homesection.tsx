@@ -67,8 +67,8 @@ full-stack websites. <span className="max-xs:hidden">I also have experience with
         <div >
             <div  style={{width:"500px",position:"relative"}} className=" max-3xl:!w-96 max-2xl:hidden">
            
-                <img className=" rounded-2xl relative right-44" src="/pic3.png"/>
-                <img className="rounded-2xl absolute top-24 right-24" src='/pic1.png'/>
+                <img className=" rounded-lg relative right-44" src="/pic3.png"/>
+                <img className="rounded-lg absolute top-24 right-24" src='/pic1.png'/>
           
             </div>
     
