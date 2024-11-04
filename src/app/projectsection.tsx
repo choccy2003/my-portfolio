@@ -28,13 +28,13 @@ const projectSection = ( ) =>{
           
         <div style={{color:"#9ca2c2"}} className="flex flex-col text-left min-w-96 max-w-96 mb-10 z-10 relative right-72 max-cl:static max-cl:text-left max-cl:!max-w-lg max-sm:!max-w-sm max-xs:min-w-80 ">
            <div className=" text-custom-color text-sm max-sm:text-xs select-none">Featured Project</div>
-           <a href="https://website-3830a.web.app/"><div className="font-bold text-2xl max-cl:text-xl max-xs:text-lg select-none cursor-pointer">OutfitZen -Ecommerce App</div></a>
+           <a href="https://stylian-ecommerce.vercel.app/"><div className="font-bold text-2xl max-cl:text-xl max-xs:text-lg select-none cursor-pointer">OutfitZen -Ecommerce App</div></a>
            <div style={{backgroundColor:"#112240"}} className=" rounded-md px-7 py-3 mt-4 text-left max-sm:text-sm max-xs:!max-w-xs max-xs:text-xs max-xs:px-3">
-           Your Ultimate Fashion Destination. Built on React.js, It offers a seamless experience with features like browsing, checkout, & reviews. Discover, shop, and more.
+           Your Ultimate Fashion Destination. Built on Next.js with TailwindCSS and TypeScript, It offers a seamless experience with features like browsing, checkout, interactive filtering & searching. Discover, shop, and more.
            </div>
         </div>  
         <div style={{width:"600px"}} className="absolute  left-16 max-cl:static max-cl:!max-w-lg max-sm:!max-w-sm max-xs:!max-w-xs">
-         <a href="https://website-3830a.web.app/">
+         <a href="https://stylian-ecommerce.vercel.app/">
            <img className=" rounded-xl relative cursor-pointer  max-cl:static max-cl:mb-4 max-cl:!w-fit max-cl:max-w-lg max-sm:max-w-sm max-xs:!max-w-xs" alt="img" src='/pic4.PNG' />  
          </a>
            
